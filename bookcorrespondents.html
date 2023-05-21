@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>What books did you borrow?</title>
+  <script src="bookcorrespondents.js"></script>
+</head>
+<body>
+  <label for="book-code">Enter book code: </label>
+  <input type="number" id="book-code" onkeydown="checkKeyPress(event)">
+  <button onclick="convertCodeToText()">Add</button>
+  <ul id="book-list"></ul>
+</body>
+</html>
